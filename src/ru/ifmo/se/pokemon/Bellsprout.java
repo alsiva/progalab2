@@ -1,7 +1,7 @@
-package ru.ifmo.se.pokemon.pokemons;
+package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.moves.Facade;
-import ru.ifmo.se.pokemon.moves.Swagger;
+import ru.ifmo.se.pokemon.Facade;
+import ru.ifmo.se.pokemon.Swagger;
 
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;

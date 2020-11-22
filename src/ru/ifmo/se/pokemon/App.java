@@ -1,7 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.pokemons.*;
-
 public class App {
 
     public static void main(String[] args) {

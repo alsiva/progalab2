@@ -1,10 +1,4 @@
-package ru.ifmo.se.pokemon.pokemons;
-
-import ru.ifmo.se.pokemon.moves.Facade;
-import ru.ifmo.se.pokemon.moves.Swagger;
-import ru.ifmo.se.pokemon.moves.PoisonPowder;
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Type;
+package ru.ifmo.se.pokemon;
 
 public class Weepinbell extends Pokemon {
     public Weepinbell(String name, int level) {

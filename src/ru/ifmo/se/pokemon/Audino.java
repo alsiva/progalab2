@@ -1,9 +1,9 @@
-package ru.ifmo.se.pokemon.pokemons;
+package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.moves.DrainingKiss;
-import ru.ifmo.se.pokemon.moves.FireBlast;
-import ru.ifmo.se.pokemon.moves.Pound;
-import ru.ifmo.se.pokemon.moves.ShadowBall;
+import ru.ifmo.se.pokemon.DrainingKiss;
+import ru.ifmo.se.pokemon.FireBlast;
+import ru.ifmo.se.pokemon.Pound;
+import ru.ifmo.se.pokemon.ShadowBall;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

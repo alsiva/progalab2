@@ -1,8 +1,8 @@
-package ru.ifmo.se.pokemon.pokemons;
+package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.moves.FocusEnergy;
-import ru.ifmo.se.pokemon.moves.Rest;
-import ru.ifmo.se.pokemon.moves.Roost;
+import ru.ifmo.se.pokemon.FocusEnergy;
+import ru.ifmo.se.pokemon.Rest;
+import ru.ifmo.se.pokemon.Roost;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
