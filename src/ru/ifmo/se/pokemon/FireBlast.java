@@ -1,8 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.App;
-import ru.ifmo.se.pokemon.*;
-
 public class FireBlast extends SpecialMove {
 
     public FireBlast() {

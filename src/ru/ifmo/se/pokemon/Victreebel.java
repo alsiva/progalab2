@@ -1,12 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.Facade;
-import ru.ifmo.se.pokemon.Swagger;
-import ru.ifmo.se.pokemon.SludgeBomb;
-import ru.ifmo.se.pokemon.PoisonPowder;
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Type;
-
 public class Victreebel extends Pokemon {
     public Victreebel(String name, int level) {
         super(name, level);

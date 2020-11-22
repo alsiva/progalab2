@@ -1,11 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.Facade;
-import ru.ifmo.se.pokemon.Swagger;
-
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Type;
-
 public class Bellsprout extends Pokemon {
     public Bellsprout(String name, int level){
         super(name, level);

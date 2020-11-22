@@ -1,6 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.*;
 
 public class Roost extends StatusMove {
 
@@ -11,8 +10,9 @@ public class Roost extends StatusMove {
     protected void applySelfEffects(Pokemon self) {
         super.applySelfEffects(self);
         double halfMaxHp = self.getStat(Stat.HP);
-        self.addEffect(new Effect().stat(Stat.HP, (int) (halfMaxHp + self.getHP())));
-        //почему-то нет set Type
+        Effect effect = new Effect().stat(Stat.HP, (int) (halfMaxHp + self.getHP()));
+        self.addEffect(effect);
 
+        self.setType(Type.NONE);
     }
 }

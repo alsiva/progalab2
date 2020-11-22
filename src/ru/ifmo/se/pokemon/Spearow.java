@@ -1,11 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.FocusEnergy;
-import ru.ifmo.se.pokemon.Rest;
-import ru.ifmo.se.pokemon.Roost;
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Type;
-
 public class Spearow extends Pokemon {
     public Spearow(String name, int level){
         super(name, level);

@@ -1,7 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.*;
-
 public class DrillRun extends PhysicalMove {
 
     public DrillRun(){
@@ -10,8 +8,7 @@ public class DrillRun extends PhysicalMove {
 
     protected void applySelfEffects(Pokemon self) {
         super.applySelfEffects(self);
-        Effect e = new Effect().stat(Stat.ACCURACY, +4);
-        self.addEffect(e);
+        self.addEffect(new Effect().stat(Stat.ACCURACY, 3));
     }
 
     protected String describe(){

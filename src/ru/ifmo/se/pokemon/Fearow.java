@@ -1,12 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.DrillRun;
-import ru.ifmo.se.pokemon.FocusEnergy;
-import ru.ifmo.se.pokemon.Rest;
-import ru.ifmo.se.pokemon.Roost;
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Type;
-
 public class Fearow extends Pokemon {
     public Fearow(String name, int level){
         super(name, level);

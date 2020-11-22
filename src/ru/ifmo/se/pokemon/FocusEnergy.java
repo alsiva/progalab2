@@ -1,7 +1,5 @@
 package ru.ifmo.se.pokemon;
 
-import ru.ifmo.se.pokemon.*;
-
 public class FocusEnergy extends StatusMove {
 
     public FocusEnergy() {
@@ -10,7 +8,7 @@ public class FocusEnergy extends StatusMove {
 
     protected void applySelfEffects(Pokemon self) {
         super.applySelfEffects(self);
-        self.addEffect(new Effect().stat(Stat.ACCURACY, 2));
+        self.addEffect(new Effect().stat(Stat.ACCURACY, (int) (self.getStat(Stat.ACCURACY) + 2)));
     }
 
     protected String describe(){
